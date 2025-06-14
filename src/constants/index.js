@@ -49,7 +49,7 @@ export const PROJECTS = [
     description:
       "Sitio web personal donde presento mis proyectos, habilidades, formación académica y formas de contacto.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    demo: "https://adrianzappala.github.io/portfolio/",  // <-- aquí
+    demo: "https://adrianzappala.github.io/dev-portfolio/",  // <-- aquí
   },
 
   {
