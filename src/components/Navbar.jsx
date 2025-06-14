@@ -44,7 +44,7 @@ const Navbar = () => {
         </a>
         {/* Ícono para descargar CV */}
         <a
-          href="https://drive.google.com/uc?export=download&id=1gZGafRnwGNuqDqU04LhHLRtNkpY4yAP9"
+          href="https://drive.google.com/uc?export=download&id=1dVwZbcXnC0pncgRvYFg9_LbDm6O-Qzyb"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Descargar CV"

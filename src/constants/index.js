@@ -58,6 +58,8 @@ export const PROJECTS = [
     description:
       "Mi primer portfolio personal con proyectos, habilidades y datos de contacto.",
     technologies: ["HTML", "CSS", "JavaScript"],
+      demo: "https://adrianzappala.github.io/portfolio/",
+
   },
 ];
 
