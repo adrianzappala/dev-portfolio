@@ -2,6 +2,7 @@ import profilePic from '../assets/adrianzappalaprofile.jpg';
 import { HERO_CONTENT } from "../constants";
 import { motion } from 'framer-motion';
 
+
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
   visible: {
@@ -62,16 +63,7 @@ const Hero = () => {
             >
               {HERO_CONTENT}
             </motion.p>
-            <motion.a
-              variants={childVariants}
-              href="/dev-portfolio/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-              className="bg-white rounded-full p-3 text-sm text-stone-800 mb-4"
-            >
-              Download Resume
-            </motion.a>
+           
           </motion.div>
         </div>
       </div>

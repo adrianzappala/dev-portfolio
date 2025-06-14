@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaGithub, FaEnvelope, FaGraduationCap } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaEnvelope, FaGraduationCap, FaFileDownload } from "react-icons/fa";
 import logo from "../assets/logo.jpg";
 
 const Navbar = () => {
@@ -41,6 +41,17 @@ const Navbar = () => {
           aria-label="Diploma"
         >
           <FaGraduationCap />
+        </a>
+        {/* Ícono para descargar CV */}
+        <a
+          href="https://drive.google.com/uc?export=download&id=1gZGafRnwGNuqDqU04LhHLRtNkpY4yAP9"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Descargar CV"
+          className="hover:text-stone-500"
+          download
+        >
+          <FaFileDownload />
         </a>
       </div>
     </nav>
