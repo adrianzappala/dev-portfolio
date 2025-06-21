@@ -38,7 +38,7 @@ export const PROJECTS = [
     title: "Reproductor Musical",
     image: project2,
     description:
-      "Mini reproductor musical que ermite reproducir, pausar y cambiar canciones en una interfaz sencilla y funcional.",
+      "Mini reproductor musical que permite reproducir, pausar y cambiar canciones en una interfaz sencilla y funcional.",
     technologies: ["HTML", "CSS", "Javacript"],
     demo: "https://adrianzappala.github.io/musicplayer/"
   },
